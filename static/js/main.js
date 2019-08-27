@@ -57,7 +57,7 @@ function initializeCanvas() {
             <div class='chart col-12' id='chart-day-col'>
                 <div class="row">
                     <div class="col-6 col-sm-4"><h5 class="chart-date"></h5></div>
-                    <div class="d-none d-sm-block col-sm-4"><h5 class="inverter-name">`+ ((langCode == 'de') ? 'tag' : 'day' ) +`</h5></div>
+                    <div class="d-none d-sm-block col-sm-4"><h5 class="inverter-name">`+ ((langCode == 'de') ? 'Tag' : 'day' ) +`</h5></div>
                     <div class="col-6 col-sm-4">
                         <h5 class="inverter-yield">
                             <i class="fa fa-circle-o-notch fa-spin fa-fw"></i>
@@ -83,7 +83,7 @@ function initializeCanvas() {
             <div class='chart col-12' id='chart-month-col'>
                 <div class="row">
                     <div class="col-6 col-sm-4"><h5 class="chart-date"></h5></div>
-                    <div class="d-none d-sm-block col-sm-4" ><h5 class="inverter-name">`+ ((langCode == 'de') ? 'monat' : 'month' ) +`</h5></div>
+                    <div class="d-none d-sm-block col-sm-4" ><h5 class="inverter-name">`+ ((langCode == 'de') ? 'Monat' : 'month' ) +`</h5></div>
                     <div class="col-6 col-sm-4">
                         <h5 class="inverter-yield">
                             <i class="fa fa-circle-o-notch fa-spin fa-fw"></i>
@@ -111,7 +111,7 @@ function initializeCanvas() {
             <div class='chart col-12' id='chart-year-col'>
                 <div class="row">
                     <div class="col-6 col-sm-4"><h5 class="chart-date"></h5></div>
-                    <div class="d-none d-sm-block col-sm-4" ><h5 class="inverter-name">`+ ((langCode == 'de') ? 'jahr' : 'year' ) +`</h5></div>
+                    <div class="d-none d-sm-block col-sm-4" ><h5 class="inverter-name">`+ ((langCode == 'de') ? 'Jahr' : 'year' ) +`</h5></div>
                     <div class="col-6 col-sm-4">
                         <h5 class="inverter-yield">
                             <i class="fa fa-circle-o-notch fa-spin fa-fw"></i>
